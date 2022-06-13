@@ -1,8 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
 *{
     margin: 0;
     padding: 0;
 }
 
-.indexBox{
-    background-image: url(images/indexPctures/backroundLoveIndex.jpg) ;
+
+.homenavbar{
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    text-align: center;
+}
+
+.hometag{
+    font-family:'Playfair Display', serif;
+    font-style: bold;
+    text-align: center;
+    width: 140px;
+    height: 180px;
+    border-radius: 0;
+}
+
+.homeheader h1{
+    font-family:'Playfair Display', serif;
+    margin: 0rem, 0rem, 3rem, 0rem;
+    color: black;
+    font-size: 174px;
+}
+
+.indexbox{
+    background: radial-gradient(circle, blueviolet, pink, navy);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.creatorsbox{
+    background: linear-gradient(to bottom, black,rgb(211, 0, 0), rgb(255, 119, 119));
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.filmsbox{
+    background-image: url(images/filmsPictures/4484604.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.musicbox{
+    background-image: url(images/musicPictures/musicblur.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.culturebox{
+    background-image:url(images/culturePictures/backroundculture.png) ;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.tvseriesbox{
+    background-image: url(images/tvSeriesImages/image.png) ;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
