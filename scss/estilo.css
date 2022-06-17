@@ -1,0 +1,403 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap");
+.homenavbar {
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  text-align: center;
+  width: 100%;
+}
+
+.homenavbar a button {
+  color: #2823bb;
+  cursor: pointer;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Playfair Display', serif;
+}
+
+/* Navbar (bootstrap, animaciones)*/
+.hometag {
+  font-weight: bold;
+  text-align: center;
+  width: 140px;
+  height: 180px;
+  border-radius: 0;
+  border-width: 2px;
+  border-color: #000000;
+}
+
+.homeheader h1 {
+  color: black;
+  font-size: 174px;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+  -webkit-animation-iteration-count: initial;
+          animation-iteration-count: initial;
+  text-align: center;
+}
+
+@-webkit-keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Backrounds*/
+.indexbox {
+  background: radial-gradient(circle, blueviolet, pink, navy);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 20em;
+  min-height: 100vh;
+}
+
+.creatorsbox {
+  background: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(#d30000), to(#ff7777));
+  background: linear-gradient(to bottom, black, #d30000, #ff7777);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.filmsbox {
+  background-image: url(".images/filmsPictures/4484604.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.musicbox {
+  background-image: url(images/musicPictures/musicblur.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 30em;
+  min-height: 100vh;
+}
+
+.culturebox {
+  background-image: url(images/culturePictures/backroundculture.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.tvseriesbox {
+  background-image: url(images/tvSeriesImages/image.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.creatorsbox homeheader .filmsbox homeheader .culturebox homeheader .tvseriesbox homeheader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 33em;
+  min-height: 100vh;
+}
+
+/* pag1 index*/
+.mainnewsis {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 60px;
+  background-image: url(./images/indexPctures/blur-photo.com_1655165821.jpg);
+  margin-top: 100px;
+}
+
+.title {
+  font-size: 40px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.sub-title {
+  font-size: 25px;
+  font-weight: 400;
+  text-align: fit-content;
+}
+
+.title, .sub-title {
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+
+.mainnewsis img {
+  width: 821px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.mainnewsis p {
+  font-size: 14px;
+  font-weight: 200;
+  margin-top: 20px;
+}
+
+.title, .sub-title, .paragraph {
+  color: white;
+}
+
+.themiddle img {
+  width: 100%;
+  max-width: 700px;
+}
+
+/* parte 2*/
+.index-slider {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  padding: 60px 0px 60px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.indexcard {
+  height: 502px;
+  min-height: 200px;
+  padding: 10px;
+  position: left;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transition: 0.5;
+  transition: 0.5;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.indexcard:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.indexcardtext {
+  color: white;
+  background-color: #000000;
+  text-align: left;
+  opacity: 70%;
+  position: relative;
+  top: 80%;
+  left: 2%;
+}
+
+.imagesslider .indexcardtext {
+  height: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.imagesslider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.indexcardtext h3 {
+  font-size: 18px;
+}
+
+.indexcardtext p {
+  font-size: 12px;
+}
+
+/* pag3 music */
+#galeria .colg-lg-4 {
+  margin: 0;
+  padding: 0;
+}
+
+#galeria img {
+  width: 100%;
+  height: 740px;
+  max-width: 700px;
+}
+
+#galeria img:hover {
+  border: 10px solid black;
+}
+
+/* footer( grid, flex, responsive, mediaqueries) */
+.pie-pagina {
+  width: 100%;
+  background-color: #000000;
+  opacity: 85%;
+  position: absolute;
+  bottom: 0%;
+}
+
+.pie-pagina .grupo-1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img {
+  width: 110px;
+}
+
+.pie-pagina .grupo-1 .box h2 {
+  color: white;
+  margin-bottom: 25px;
+  font-size: 21px;
+}
+
+.pie-pagina .grupo-1 .box p {
+  color: white;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.pie-pagina .grupo-1 .red-social a {
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: white;
+  margin-right: 10px;
+  text-align: center;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-2 {
+  background-color: #0a0a0a;
+  padding: 15px 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.pie-pagina .grupo-2 small {
+  font-size: 11px;
+}
+
+.pie-pagina .grupo-1 .box img {
+  width: 100%;
+  min-width: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  /*navbar ya tiene por bootstrap*/
+  /*p1, parte 1*/
+  /*p2, parte 2*/
+  /*p3, unica parte*/
+  /*footer*/
+  .homeheader h1 {
+    color: black;
+    font-size: 70px;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-name: aparecer;
+            animation-name: aparecer;
+    -webkit-animation-iteration-count: initial;
+            animation-iteration-count: initial;
+    text-align: center;
+  }
+  .indexbox {
+    padding-bottom: 33em;
+    min-height: 100vh;
+  }
+  .musicbox {
+    padding-bottom: 33em;
+    min-height: 100vh;
+  }
+  .creatorsbox homeheader .filmsbox homeheader .culturebox homeheader .tvseriesbox homeheader {
+    padding-top: 33em;
+    min-height: 100vh;
+  }
+  .imagesslider {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .pie-pagina .grupo-1 {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+  }
+}
+/*# sourceMappingURL=estilo.css.map */
