@@ -89,14 +89,14 @@
 }
 
 .filmsbox {
-  background-image: url(".images/filmsPictures/4484604.jpg");
+  background-image: url(../images/filmsPictures/4484604.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
 
 .musicbox {
-  background-image: url(images/musicPictures/musicblur.jpg);
+  background-image: url(../images/musicPictures/musicblur.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -113,14 +113,14 @@
 }
 
 .culturebox {
-  background-image: url(images/culturePictures/backroundculture.png);
+  background-image: url(../images/culturePictures/backroundculture.png);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
 
 .tvseriesbox {
-  background-image: url(images/tvSeriesImages/image.png);
+  background-image: url(../images/tvSeriesImages/image.png);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -290,7 +290,7 @@
   margin: auto;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3];
+  -ms-grid-columns: (1fr)[];
       grid-template-columns: repeat(3, 1fr);
   grid-gap: 50px;
   padding: 45px 0px;
@@ -394,7 +394,7 @@
     width: 100%;
   }
   .pie-pagina .grupo-1 {
-    -ms-grid-columns: (1fr)[1];
+    -ms-grid-columns: (1fr)[];
         grid-template-columns: repeat(1, 1fr);
     grid-gap: 30px;
     padding: 35px 0px;
