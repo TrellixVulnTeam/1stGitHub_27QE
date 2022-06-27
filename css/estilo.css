@@ -1,1 +1,27 @@
+.indexbox {
+  background-color: rgba(0, 255, 187, 0.995);
+}
 
+.homeheader .homenavbar {
+  width: 80%;
+  background-color: rgb(255, 255, 255);
+  margin: 11px auto;
+}
+.homeheader .homenavbar .menu {
+  list-style-type: none;
+  padding: 11px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.homeheader .homenavbar .menu .boton {
+  padding: 11px;
+  margin: 11px;
+}
+.homeheader .homenavbar .menu .boton:hover {
+  background-color: black;
+}
+.homeheader .homenavbar .menu .boton a {
+  text-decoration: none;
+  color: black;
+}/*# sourceMappingURL=estilo.css.map */

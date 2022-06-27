@@ -1,1 +1,99 @@
-/*# sourceMappingURL=estilo.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.creatorsbox {
+  background-image: url("/images/creatorsImages/creatorshomefront.jpg");
+  background-position: center;
+  background-repeat: none;
+  background-attachment: fixed;
+}
+
+main .begin {
+  background-color: rgb(101, 86, 0);
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem;
+}
+main .begin h2 {
+  color: coral;
+}
+main .begin p {
+  color: goldenrod;
+}
+main .about {
+  background-color: rgb(49, 111, 255);
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem;
+}
+main .about h2 {
+  color: coral;
+}
+main .about p {
+  color: goldenrod;
+}
+main .wait {
+  background-color: rgb(77, 5, 140);
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem;
+}
+main .wait h2 {
+  color: coral;
+}
+main .wait p {
+  color: goldenrod;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.indexbox {
+  background-color: rgb(0, 33, 115);
+}
+
+header .homenavbar {
+  width: 90%;
+  background-color: black;
+  margin: 10px auto;
+}
+header .homenavbar .menu {
+  list-style-type: none;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+header .homenavbar .menu .boton {
+  padding: 10px;
+  margin: 10px;
+}
+header .homenavbar .menu .boton:hover {
+  background-color: purple;
+  border-radius: 20%;
+}
+header .homenavbar .menu .boton a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 100px;
+}
+header .homenavbar .menu .boton a:hover {
+  color: rgb(191, 26, 158);
+  font-weight: bold;
+}
+
+.sitenamehome, .sitenamecreators {
+  background-color: rgb(255, 255, 255);
+  color: rgb(198, 7, 7);
+  text-align: center;
+}
+
+.sitenamecreators {
+  font-family: Arial, Helvetica, sans-serif;
+}/*# sourceMappingURL=estilo.css.map */

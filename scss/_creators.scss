@@ -1,0 +1,73 @@
+$color1: rgb(255, 255, 255); 
+$color2: rgb(254, 223, 203);
+$color3: rgba(255, 217, 0, 0.895);
+$color4: rgba(236, 127, 18, 0.906);
+$color5: rgb(198, 7, 7); 
+
+$color6: rgb(210, 108, 221);
+$color7: rgb(191, 26, 158) ;
+$color8: purple ;
+$color9: rgb(186, 146, 253);
+$color10: rgb(77, 5, 140);
+$color11: rgb(37, 11, 228);
+
+$color12: rgba(0, 149, 255, 0.995);
+$color13: rgb(49, 111, 255);
+$color15: rgb(12, 227, 255);
+$color16: rgb(0, 33, 115);
+$color17: rgb(0, 26, 129);
+
+$color18: rgba(0, 255, 187, 0.995);
+$color19: rgb(155, 255, 49);
+$color20: rgb(86, 166, 0);
+$color21: rgb(63, 91, 38);
+$color22: rgba(0, 69, 34, 0.782);
+
+$color23: rgb(146, 131, 0);
+$color24: rgb(101, 86, 0) ;
+$color25: rgba(142, 0, 0, 0.524);
+$color26: rgba(135, 0, 0, 0.902);
+$color27: black;
+
+$color-28: rgb(174, 174, 174);
+$color-29: rgb(51, 61, 65);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.creatorsbox{
+    background-image: url("/images/creatorsImages/creatorshomefront.jpg");    
+    background-position: center;
+    background-repeat: none;
+    background-attachment: fixed;
+}
+
+main{
+    @mixin boxes ($color){
+        background-color: $color;
+        border-radius: 5px;
+        padding: 1rem;
+        margin: 1rem;
+        h2{
+        color: coral;
+        }
+            p{
+            color:goldenrod ;
+        }
+}
+.begin{
+    @include boxes ($color24)
+    }
+
+.about{
+    @include boxes ($color13)
+}
+
+.wait{
+    @include boxes ($color10)
+}
+
+}

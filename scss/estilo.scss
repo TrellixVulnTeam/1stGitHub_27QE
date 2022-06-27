@@ -1,0 +1,94 @@
+@import "creators";
+
+$color-1: rgb(255, 255, 255); 
+$color-2: rgb(254, 223, 203);
+$color-3: rgba(255, 217, 0, 0.895);
+$color-4: rgba(236, 127, 18, 0.906);
+$color-5: rgb(198, 7, 7); 
+
+$color-6: rgb(210, 108, 221);
+$color-7: rgb(191, 26, 158) ;
+$color-8: purple ;
+$color-9: rgb(186, 146, 253);
+$color-10: rgb(77, 5, 140);
+$color-11: rgb(37, 11, 228);
+
+$color-12: rgba(0, 149, 255, 0.995);
+$color-13: rgb(49, 111, 255);
+$color-15: rgb(12, 227, 255);
+$color-16: rgb(0, 33, 115);
+$color-17: rgb(0, 26, 129);
+
+$color-18: rgba(0, 255, 187, 0.995);
+$color-19: rgb(155, 255, 49);
+$color-20: rgb(86, 166, 0);
+$color-21: rgb(63, 91, 38);
+$color-22: rgba(0, 69, 34, 0.782);
+
+$color-23: rgb(146, 131, 0);
+$color-24: rgb(101, 86, 0) ;
+$color-25: rgba(142, 0, 0, 0.524);
+$color-26: rgba(135, 0, 0, 0.902);
+$color-27: black;
+
+$color-28: rgb(174, 174, 174);
+$color-29: rgb(51, 61, 65);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.indexbox{
+    background-color: $color-16;
+}
+
+header{
+
+    .homenavbar{
+        width:90%;
+        background-color: $color-27;
+        margin: 10px auto;
+
+        .menu{
+           list-style-type: none;
+           padding: 10px;
+           display: flex;
+           flex-direction: row;
+           justify-content: center;
+
+            .boton{
+                padding: 10px;
+                margin: 10px;
+                &:hover{
+                    background-color: $color-8;
+                    border-radius: 20%;
+                }                   
+                a{
+                    text-decoration: none;
+                    color: $color-1;
+                    padding: 100px;
+                &:hover{
+                    color: $color-7;
+                    font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.sitenamehome{
+    background-color: $color-1;
+    color: $color-5;
+    text-align: center
+}
+
+.sitenamecreators{  
+    @extend .sitenamehome;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
